@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+<<<<<<< HEAD
   
   def new
   end
@@ -16,5 +17,9 @@ class UsersController < ApplicationController
  
   def user_params
     params.require(:user).permit(:name, :password, :password_confirmation)
+=======
+  def create
+
+>>>>>>> e68e1129919565b11701fa79d4594d6ffe5669cc
   end
 end
